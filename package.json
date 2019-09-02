@@ -1,0 +1,21 @@
+{
+  "name": "gzip-dir-files",
+  "version": "0.0.1",
+  "description": "Create gzip version of dir files recursively",
+  "main": "create-gzip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gzip"
+  ],
+  "author": "Oleg Milanko",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7",
+    "rimraf": "^3.0.0",
+    "zlib": "^1.0.5"
+  }
+}
